@@ -1,0 +1,9 @@
+com\vn\orderservice\repository\OrderRepository.class
+com\vn\orderservice\controller\OrderController.class
+com\vn\orderservice\service\impl\OrderServiceImpl.class
+com\vn\orderservice\dto\OrderRequest.class
+com\vn\orderservice\service\OrderService.class
+com\vn\orderservice\model\OrderLineItems.class
+com\vn\orderservice\dto\OrderLineItemsDto.class
+com\vn\orderservice\model\Order.class
+com\vn\orderservice\OrderServiceApplication.class

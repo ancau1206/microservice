@@ -27,7 +27,7 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-cloud.version>2022.0.1</spring-cloud.version>
+        <spring-cloud.version>2022.0.2</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
@@ -48,17 +48,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>netflix-candidates</id>
-            <name>Netflix Candidates</name>
-            <url>https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
